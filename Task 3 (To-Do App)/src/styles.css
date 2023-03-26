@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #000000;
+  color: white;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 5vh;
+}
+
+nav {
+  width: 100vw;
+  height: 8vh;
+  background-color: #6439c5;
+  display: flex;
+  align-items: center;
+}
+
+#Title {
+  font-family: sans-serif;
+  font-size: 180%;
+  padding: 0% 2%;
+}
+
+#AddTask {
+  display: flex;
+  height: 16vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+#AddTask form {
+  width: 70%;
+}
+
+#AddTask input {
+  font-size: 120%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  border-radius: 50px;
+}
+
+#AddTask input:focus {
+  outline: none;
+}
+
+#AddTaskArea {
+  height: 5vh;
+  width: 60vw;
+  text-align: center;
+  color: #000000;
+}
+
+#AddButton {
+  height: 6vh;
+  padding: 0% 3%;
+  background-color: #6439c5;
+}
+
+#AddButton:hover {
+  background-color: #825dd5;
+}
+
+#TaskStatus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  background-color: #6439c5;
+  margin: 0% 8%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#TaskStatus span {
+  width: 33.33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  font-size: 20px;
+}
+
+.active {
+  background-color: #825dd5;
+}
+
+.Task {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+  height: 6vh;
+  font-size: 20px;
+  background-color: white;
+  border-radius: 50px;
+  margin: 2% 8%;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Task p {
+  width: 80%;
+  padding: 10px 0;
+}
+
+.statusTag {
+  padding: 8px;
+  border-radius: 50px;
+  color: white;
+}
+
+.Completed {
+  background-color: #6ddf78;
+}
+
+.Incomplete {
+  background-color: #dd4040;
+}
